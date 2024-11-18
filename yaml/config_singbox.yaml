@@ -1,0 +1,2823 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: true
+mode: Rule
+log-level: debug
+external-controller: 0.0.0.0:9091
+secret: ''
+external-ui: ‘./ui'
+proxies:
+  - name: V2-2999|日本|x1.0
+    type: vmess
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 12999
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: asjpc6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3001|日本|x1.0
+    type: vmess
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13001
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: asjpc6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3062|日本|x2.0
+    type: ssr
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13062
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3229|日本NF|x2.0
+    type: ssr
+    server: xrbsy1.cdn.node.a.ddnsketq.xyz
+    port: 13229
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3233|日本NF|x2.0
+    type: ssr
+    server: xrbsy1.cdn.node.a.ddnsketq.xyz
+    port: 13233
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3260|香港x1.2
+    type: ssr
+    server: bbq886.cdn.node.a.ddnsketq.xyz
+    port: 13260
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3261|香港x1.2
+    type: ssr
+    server: bbq886.cdn.node.a.ddnsketq.xyz
+    port: 13261
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3263|香港|x2.0
+    type: ssr
+    server: aaf8.cdn.node.a.ddnsketq.xyz
+    port: 13263
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3268|香港|x1.2
+    type: vmess
+    server: bbq886.cdn.node.a.ddnsketq.xyz
+    port: 13268
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: bbq886.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3269|香港|x1.2
+    type: vmess
+    server: bbq886.cdn.node.a.ddnsketq.xyz
+    port: 13269
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: bbq886.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3271|香港|x2.0
+    type: vmess
+    server: aaf8.cdn.node.a.ddnsketq.xyz
+    port: 13271
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: aaf8.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3350|新加坡|x2.5
+    type: ssr
+    server: wegm63.cdn.node.a.ddnsketq.xyz
+    port: 13350
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3360|新加坡|x2.5
+    type: vmess
+    server: wegm63.cdn.node.a.ddnsketq.xyz
+    port: 13360
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: wegm63.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V2-3387|台湾|x2.0
+    type: ssr
+    server: dr64.cdn.node.a.ddnsketq.xyz
+    port: 13387
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3393|台湾|x2.0
+    type: vmess
+    server: dr64.cdn.node.a.ddnsketq.xyz
+    port: 13393
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: dr64.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3400|香港|x2.0
+    type: ssr
+    server: zgdv6.cdn.node.a.ddnsketq.xyz
+    port: 13400
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3403|香港|x2.0
+    type: vmess
+    server: zgdv6.cdn.node.a.ddnsketq.xyz
+    port: 13403
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /9974f731e8cb457b17143895.v1.live.m3u8
+    ws-headers:
+      Host: zgdv6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /9974f731e8cb457b17143895.v1.live.m3u8
+  - name: V2-3422|香港|x2.0
+    type: ssr
+    server: zgdv6.cdn.node.a.ddnsketq.xyz
+    port: 13422
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3423|香港|x2.0
+    type: vmess
+    server: zgdv6.cdn.node.a.ddnsketq.xyz
+    port: 13423
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: zgdv6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3429|美国|x2.0
+    type: ssr
+    server: hfa1.cdn.node.a.ddnsketq.xyz
+    port: 13429
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3437|香港|x2.0
+    type: ssr
+    server: zgdv6.cdn.node.a.ddnsketq.xyz
+    port: 13437
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3445|香港|x1.5
+    type: ssr
+    server: x321.cdn.node.a.ddnsketq.xyz
+    port: 13445
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3449|香港|x1.5
+    type: ssr
+    server: sjgysy.cdn.node.a.ddnsketq.xyz
+    port: 13449
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3455|美国|x2.0
+    type: vmess
+    server: hfa1.cdn.node.a.ddnsketq.xyz
+    port: 13455
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /80080f42e36c6478a808050e.v1.live.m3u8
+    ws-headers:
+      Host: hfa1.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /80080f42e36c6478a808050e.v1.live.m3u8
+  - name: V2-3463|香港|x2.0
+    type: vmess
+    server: zgdv6.cdn.node.a.ddnsketq.xyz
+    port: 13463
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /9974f731e8cb457b17143895.v1.live.m3u8
+    ws-headers:
+      Host: zgdv6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /9974f731e8cb457b17143895.v1.live.m3u8
+  - name: V2-3471|香港|x1.5
+    type: vmess
+    server: x321.cdn.node.a.ddnsketq.xyz
+    port: 13471
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: x321.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3475|香港|x1.5
+    type: vmess
+    server: sjgysy.cdn.node.a.ddnsketq.xyz
+    port: 13475
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: sjgysy.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V2-3495|香港x2.0
+    type: ssr
+    server: x321.cdn.node.a.ddnsketq.xyz
+    port: 13495
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3499|香港x1.2
+    type: ssr
+    server: x321.cdn.node.a.ddnsketq.xyz
+    port: 13499
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3501|香港|x1.0
+    type: ssr
+    server: tata12.cdn.node.a.ddnsketq.xyz
+    port: 13501
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3509|香港|x2.0
+    type: vmess
+    server: x321.cdn.node.a.ddnsketq.xyz
+    port: 13509
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: x321.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V2-3513|香港|x1.2
+    type: vmess
+    server: x321.cdn.node.a.ddnsketq.xyz
+    port: 13513
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: x321.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V2-3515|香港|x1.0
+    type: vmess
+    server: tata12.cdn.node.a.ddnsketq.xyz
+    port: 13515
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: tata12.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3526|台湾|x2.0
+    type: ssr
+    server: dr64.cdn.node.a.ddnsketq.xyz
+    port: 13526
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3527|台湾|x2.0
+    type: vmess
+    server: dr64.cdn.node.a.ddnsketq.xyz
+    port: 13527
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: dr64.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3534|香港|x2.0
+    type: ssr
+    server: x321.cdn.node.a.ddnsketq.xyz
+    port: 13534
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3535|香港|x2.0
+    type: vmess
+    server: x321.cdn.node.a.ddnsketq.xyz
+    port: 13535
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: x321.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3543|香港|x2.0
+    type: ssr
+    server: zgdv6.cdn.node.a.ddnsketq.xyz
+    port: 13543
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3544|香港|x2.0
+    type: vmess
+    server: zgdv6.cdn.node.a.ddnsketq.xyz
+    port: 13544
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: zgdv6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V2-3576|新加坡|x2.0
+    type: ssr
+    server: wegm63.cdn.node.a.ddnsketq.xyz
+    port: 13576
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3577|新加坡|x2.0
+    type: vmess
+    server: wegm63.cdn.node.a.ddnsketq.xyz
+    port: 13577
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: wegm63.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V2-3591|日本|x1.5
+    type: ssr
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13591
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3598|日本|x1.5
+    type: vmess
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13598
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: asjpc6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V2-3603|日本|x2.0
+    type: vmess
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13603
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: asjpc6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3610|日本|x1.5
+    type: ssr
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13610
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3611|日本|x1.5
+    type: ssr
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13611
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3628|美国|x1.5
+    type: ssr
+    server: bb29cs.cdn.node.a.ddnsketq.xyz
+    port: 13628
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3629|美国|x1.5
+    type: ssr
+    server: bb29cs.cdn.node.a.ddnsketq.xyz
+    port: 13629
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3630|美国|x1.5
+    type: ssr
+    server: bb29cs.cdn.node.a.ddnsketq.xyz
+    port: 13630
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3631|台湾|x1.5
+    type: ssr
+    server: dr64.cdn.node.a.ddnsketq.xyz
+    port: 13631
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3632|台湾|x1.5
+    type: ssr
+    server: dr64.cdn.node.a.ddnsketq.xyz
+    port: 13632
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3654|美国|x1.5
+    type: vmess
+    server: bb29cs.cdn.node.a.ddnsketq.xyz
+    port: 13654
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: bb29cs.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3655|美国|x1.5
+    type: vmess
+    server: bb29cs.cdn.node.a.ddnsketq.xyz
+    port: 13655
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: bb29cs.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3656|美国|x1.5
+    type: vmess
+    server: bb29cs.cdn.node.a.ddnsketq.xyz
+    port: 13656
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: bb29cs.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3657|台湾|x1.5
+    type: vmess
+    server: dr64.cdn.node.a.ddnsketq.xyz
+    port: 13657
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: dr64.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3658|台湾|x1.5
+    type: vmess
+    server: dr64.cdn.node.a.ddnsketq.xyz
+    port: 13658
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: dr64.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3680|香港|x1.2
+    type: ssr
+    server: z5sa6is.cdn.node.a.ddnsketq.xyz
+    port: 13680
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3681|香港|x1.2
+    type: ssr
+    server: z5sa6is.cdn.node.a.ddnsketq.xyz
+    port: 13681
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3682|香港|x1.2
+    type: ssr
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13682
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3684|香港|x1.2
+    type: vmess
+    server: z5sa6is.cdn.node.a.ddnsketq.xyz
+    port: 13684
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: z5sa6is.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3685|香港|x1.2
+    type: vmess
+    server: z5sa6is.cdn.node.a.ddnsketq.xyz
+    port: 13685
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: z5sa6is.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3686|香港|x1.2
+    type: vmess
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13686
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: z5is.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V2-3691|日本NF|x2.0
+    type: vmess
+    server: weace1.cdn.node.a.ddnsketq.xyz
+    port: 13691
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: weace1.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V2-3703|日本NF|x2.0
+    type: vmess
+    server: weace1.cdn.node.a.ddnsketq.xyz
+    port: 13703
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: weace1.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V2-3704|日本NF|x2.0
+    type: vmess
+    server: weace1.cdn.node.a.ddnsketq.xyz
+    port: 13704
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: weace1.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V2-3718|日本|x2.0
+    type: ssr
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13718
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3719|日本|x2.0
+    type: ssr
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13719
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3720|日本|x2.0
+    type: ssr
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13720
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V2-3733|日本|x2.0
+    type: vmess
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13733
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: syrbp.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V2-3734|日本|x2.0
+    type: vmess
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13734
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: syrbp.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V2-3735|日本|x2.0
+    type: vmess
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13735
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: syrbp.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V2-889|日本NF|x2.0
+    type: ssr
+    server: weace1.cdn.node.a.ddnsketq.xyz
+    port: 10889
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-2956|日本|x1.5
+    type: ssr
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 12956
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-2957|日本|x1.5
+    type: ssr
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 12957
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-2958|日本|x1.5
+    type: ssr
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 12958
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3010|香港|x2.0
+    type: ssr
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13010
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3018|香港|x2.0
+    type: vmess
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13018
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /9974f731e8cb457b17143895.v1.live.m3u8
+    ws-headers:
+      Host: cd69.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /9974f731e8cb457b17143895.v1.live.m3u8
+  - name: V3-3171|香港|x1.5
+    type: ssr
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13171
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3172|香港|x1.5
+    type: vmess
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13172
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: z5is.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3181|香港|x1.5
+    type: ssr
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13181
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3182|香港|x1.5
+    type: vmess
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13182
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: z5is.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3183|香港|x1.5
+    type: ssr
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13183
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3184|香港|x1.5
+    type: ssr
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13184
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3185|香港|x1.5
+    type: ssr
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13185
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3186|香港|x1.5
+    type: ssr
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13186
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3192|香港|x1.5
+    type: vmess
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13192
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: z5is.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3193|香港|x1.5
+    type: vmess
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13193
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: z5is.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3194|香港|x1.5
+    type: vmess
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13194
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: z5is.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3195|香港|x1.5
+    type: vmess
+    server: z5is.cdn.node.a.ddnsketq.xyz
+    port: 13195
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: z5is.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3223|日本NF|x2.0
+    type: ssr
+    server: wbgsba.cdn.node.a.ddnsketq.xyz
+    port: 13223
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3225|日本NF|x2.0
+    type: ssr
+    server: wbgsba.cdn.node.a.ddnsketq.xyz
+    port: 13225
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3267|香港|x2.0
+    type: ssr
+    server: suyhks.cdn.node.a.ddnsketq.xyz
+    port: 13267
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3275|香港|x2.0
+    type: vmess
+    server: syhkv2.cdn.node.a.ddnsketq.xyz
+    port: 13275
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: syhkv2.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3316|台湾|x1.5
+    type: ssr
+    server: lld9k6.cdn.node.a.ddnsketq.xyz
+    port: 13316
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3317|台湾|x1.5
+    type: ssr
+    server: lld9k6.cdn.node.a.ddnsketq.xyz
+    port: 13317
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3318|台湾|x1.5
+    type: ssr
+    server: lld9k6.cdn.node.a.ddnsketq.xyz
+    port: 13318
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3319|台湾|x1.5
+    type: vmess
+    server: lld9k6.cdn.node.a.ddnsketq.xyz
+    port: 13319
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: lld9k6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3320|台湾|x1.5
+    type: vmess
+    server: lld9k6.cdn.node.a.ddnsketq.xyz
+    port: 13320
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: lld9k6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3321|台湾|x1.5
+    type: vmess
+    server: lld9k6.cdn.node.a.ddnsketq.xyz
+    port: 13321
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: lld9k6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3340|香港|x2.0
+    type: ssr
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13340
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3342|香港|x2.0
+    type: ssr
+    server: suyhks.cdn.node.a.ddnsketq.xyz
+    port: 13342
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3343|香港|x2.0
+    type: vmess
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13343
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: cd69.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3345|香港|x2.0
+    type: vmess
+    server: syhkv2.cdn.node.a.ddnsketq.xyz
+    port: 13345
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: syhkv2.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3431|美国|x2.0
+    type: ssr
+    server: hfa1.cdn.node.a.ddnsketq.xyz
+    port: 13431
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3432|美国|x2.0
+    type: ssr
+    server: wzfla.cdn.node.a.ddnsketq.xyz
+    port: 13432
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3446|香港|x2.0
+    type: ssr
+    server: suyhks.cdn.node.a.ddnsketq.xyz
+    port: 13446
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3450|香港x2.0
+    type: ssr
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13450
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3457|美国|x2.0
+    type: vmess
+    server: hfa1.cdn.node.a.ddnsketq.xyz
+    port: 13457
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /80080f42e36c6478a808050e.v1.live.m3u8
+    ws-headers:
+      Host: hfa1.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /80080f42e36c6478a808050e.v1.live.m3u8
+  - name: V3-3458|美国|x2.0
+    type: vmess
+    server: wzfla.cdn.node.a.ddnsketq.xyz
+    port: 13458
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /80080f42e36c6478a808050e.v1.live.m3u8
+    ws-headers:
+      Host: wzfla.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /80080f42e36c6478a808050e.v1.live.m3u8
+  - name: V3-3472|香港|x2.0
+    type: vmess
+    server: syhkv2.cdn.node.a.ddnsketq.xyz
+    port: 13472
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: syhkv2.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3476|香港|x2.0
+    type: vmess
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13476
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: cd69.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V3-3488|香港|x1.5
+    type: ssr
+    server: sjgysy.cdn.node.a.ddnsketq.xyz
+    port: 13488
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3490|香港|x1.0
+    type: ssr
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13490
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3502|香港|x1.5
+    type: vmess
+    server: sjgysy.cdn.node.a.ddnsketq.xyz
+    port: 13502
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: sjgysy.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V3-3504|香港|x1.0
+    type: vmess
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13504
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: cd69.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3545|香港|x1.5
+    type: ssr
+    server: tata12.cdn.node.a.ddnsketq.xyz
+    port: 13545
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3546|香港|x1.5
+    type: vmess
+    server: tata12.cdn.node.a.ddnsketq.xyz
+    port: 13546
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: tata12.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3547|香港|x2.0
+    type: ssr
+    server: suyhks.cdn.node.a.ddnsketq.xyz
+    port: 13547
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3548|香港|x2.0
+    type: vmess
+    server: syhkv2.cdn.node.a.ddnsketq.xyz
+    port: 13548
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: syhkv2.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3570|新加坡|x2.0
+    type: ssr
+    server: gf6s.cdn.node.a.ddnsketq.xyz
+    port: 13570
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3571|新加坡|x2.0
+    type: vmess
+    server: qgd6.cdn.node.a.ddnsketq.xyz
+    port: 13571
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: qgd6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3572|新加坡|x2.0
+    type: ssr
+    server: gf6s.cdn.node.a.ddnsketq.xyz
+    port: 13572
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3573|新加坡|x2.0
+    type: vmess
+    server: qgd6.cdn.node.a.ddnsketq.xyz
+    port: 13573
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: qgd6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3589|日本|x1.5
+    type: ssr
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13589
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3596|日本|x1.5
+    type: vmess
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13596
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: asjpc6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3604|日本|x1.5
+    type: vmess
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13604
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: asjpc6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3605|日本|x1.5
+    type: vmess
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13605
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: asjpc6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3606|日本|x1.5
+    type: vmess
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13606
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: asjpc6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3634|美国|x1.5
+    type: ssr
+    server: bb29cs.cdn.node.a.ddnsketq.xyz
+    port: 13634
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3636|美国|x1.5
+    type: ssr
+    server: bb29cs.cdn.node.a.ddnsketq.xyz
+    port: 13636
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3638|美国|x1.0
+    type: ssr
+    server: bb29cs.cdn.node.a.ddnsketq.xyz
+    port: 13638
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3645|香港|x1.5
+    type: ssr
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13645
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3660|美国|x1.5
+    type: vmess
+    server: bb29cs.cdn.node.a.ddnsketq.xyz
+    port: 13660
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: bb29cs.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3662|美国|x1.5
+    type: vmess
+    server: bb29cs.cdn.node.a.ddnsketq.xyz
+    port: 13662
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: bb29cs.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3664|美国|x1.0
+    type: vmess
+    server: bb29cs.cdn.node.a.ddnsketq.xyz
+    port: 13664
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: bb29cs.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V3-3671|香港|x1.5
+    type: vmess
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13671
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: cd69.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V3-3696|日本NF|x2.0
+    type: vmess
+    server: wbgsba.cdn.node.a.ddnsketq.xyz
+    port: 13696
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: wbgsba.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V3-3699|日本NF|x2.0
+    type: vmess
+    server: wbgsba.cdn.node.a.ddnsketq.xyz
+    port: 13699
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: wbgsba.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V3-3721|日本|x2.0
+    type: ssr
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13721
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3722|日本|x2.0
+    type: ssr
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13722
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3723|日本|x2.0
+    type: ssr
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13723
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3724|日本|x2.0
+    type: ssr
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13724
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V3-3736|日本|x2.0
+    type: vmess
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13736
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: syrbp.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V3-3737|日本|x2.0
+    type: vmess
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13737
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: syrbp.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V3-3738|日本|x2.0
+    type: vmess
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13738
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: syrbp.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V3-3739|日本|x2.0
+    type: vmess
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13739
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: syrbp.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V4-3020|日本NF|x2.0
+    type: ssr
+    server: xrbsy1.cdn.node.a.ddnsketq.xyz
+    port: 13020
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3023|日本NF|x2.0
+    type: vmess
+    server: xrbsy1.cdn.node.a.ddnsketq.xyz
+    port: 13023
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+    ws-headers:
+      Host: xrbsy1.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8
+  - name: V4-3087|日本|x1.5
+    type: ssr
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13087
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3093|日本|x1.5
+    type: vmess
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13093
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: asjpc6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3094|日本|x1.5
+    type: vmess
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13094
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: asjpc6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3096|日本|x2.0
+    type: vmess
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13096
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: asjpc6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3299|台湾|x1.0
+    type: ssr
+    server: mjk6.cdn.node.a.ddnsketq.xyz
+    port: 13299
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3301|台湾|x1.0
+    type: ssr
+    server: mjk6.cdn.node.a.ddnsketq.xyz
+    port: 13301
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3302|台湾|x1.0
+    type: ssr
+    server: mjk6.cdn.node.a.ddnsketq.xyz
+    port: 13302
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3303|台湾|x1.0
+    type: ssr
+    server: mjk6.cdn.node.a.ddnsketq.xyz
+    port: 13303
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3305|台湾|x1.0
+    type: ssr
+    server: mjk6.cdn.node.a.ddnsketq.xyz
+    port: 13305
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3307|台湾|x1.0
+    type: vmess
+    server: mjk6.cdn.node.a.ddnsketq.xyz
+    port: 13307
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: mjk6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3309|台湾|x2.0
+    type: vmess
+    server: mjk6.cdn.node.a.ddnsketq.xyz
+    port: 13309
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: mjk6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3310|台湾|x1.0
+    type: vmess
+    server: mjk6.cdn.node.a.ddnsketq.xyz
+    port: 13310
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: mjk6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3311|台湾|x2.0
+    type: vmess
+    server: mjk6.cdn.node.a.ddnsketq.xyz
+    port: 13311
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: mjk6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3313|台湾|x1.0
+    type: vmess
+    server: mjk6.cdn.node.a.ddnsketq.xyz
+    port: 13313
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: mjk6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3351|新加坡|x1.0
+    type: ssr
+    server: eqwr51.cdn.node.a.ddnsketq.xyz
+    port: 13351
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3352|新加坡|x1.0
+    type: ssr
+    server: eqwr51.cdn.node.a.ddnsketq.xyz
+    port: 13352
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3361|新加坡|x1.0
+    type: vmess
+    server: r97q.cdn.node.a.ddnsketq.xyz
+    port: 13361
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: r97q.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3362|新加坡|x1.0
+    type: vmess
+    server: r97q.cdn.node.a.ddnsketq.xyz
+    port: 13362
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: r97q.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3447|香港|x2.0
+    type: ssr
+    server: suyhks.cdn.node.a.ddnsketq.xyz
+    port: 13447
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3451|日本NFx2.0
+    type: ssr
+    server: xrbsy1.cdn.node.a.ddnsketq.xyz
+    port: 13451
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3473|香港|x2.0
+    type: vmess
+    server: syhkv2.cdn.node.a.ddnsketq.xyz
+    port: 13473
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+    ws-headers:
+      Host: syhkv2.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8
+  - name: V4-3477|日本NF|x2.0
+    type: vmess
+    server: xrbsy1.cdn.node.a.ddnsketq.xyz
+    port: 13477
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: xrbsy1.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3489|香港|x1.5
+    type: ssr
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13489
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3497|日本NFx2.0
+    type: ssr
+    server: xrbsy1.cdn.node.a.ddnsketq.xyz
+    port: 13497
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3503|香港|x1.5
+    type: vmess
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13503
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: cd69.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3511|日本NF|x2.0
+    type: vmess
+    server: xrbsy1.cdn.node.a.ddnsketq.xyz
+    port: 13511
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: xrbsy1.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3530|香港|x2.0
+    type: ssr
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13530
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3531|香港|x2.0
+    type: vmess
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13531
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: cd69.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3541香港|x2.0
+    type: ssr
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13541
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3542|香港|x2.0
+    type: vmess
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13542
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: cd69.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3607|日本|x1.5
+    type: vmess
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13607
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: asjpc6.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3613|日本|x1.5|
+    type: ssr
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13613
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3614|日本|x1.5
+    type: ssr
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13614
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3615|日本|x1.5
+    type: ssr
+    server: asjpc6.cdn.node.a.ddnsketq.xyz
+    port: 13615
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3639|香港|x1.0
+    type: ssr
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13639
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3640|香港|x1.5
+    type: ssr
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13640
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3641|香港|x2.0
+    type: ssr
+    server: suyhks.cdn.node.a.ddnsketq.xyz
+    port: 13641
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3642|香港|x1.5
+    type: ssr
+    server: sjgysy.cdn.node.a.ddnsketq.xyz
+    port: 13642
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3643|香港|x2.0
+    type: ssr
+    server: suyhks.cdn.node.a.ddnsketq.xyz
+    port: 13643
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3644|香港|x2.0
+    type: ssr
+    server: suyhks.cdn.node.a.ddnsketq.xyz
+    port: 13644
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3665|香港|x1.0
+    type: vmess
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13665
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: cd69.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3666|香港|x1.5
+    type: vmess
+    server: cd69.cdn.node.a.ddnsketq.xyz
+    port: 13666
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: cd69.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3667|香港|x2.0
+    type: vmess
+    server: syhkv2.cdn.node.a.ddnsketq.xyz
+    port: 13667
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: syhkv2.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3668|香港|x1.5
+    type: vmess
+    server: sjgysy.cdn.node.a.ddnsketq.xyz
+    port: 13668
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: sjgysy.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3669|香港|x2.0
+    type: vmess
+    server: syhkv2.cdn.node.a.ddnsketq.xyz
+    port: 13669
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: syhkv2.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3670|香港|x2.0
+    type: vmess
+    server: syhkv2.cdn.node.a.ddnsketq.xyz
+    port: 13670
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+    ws-headers:
+      Host: syhkv2.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+  - name: V4-3725|日本|x2.0
+    type: ssr
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13725
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3726|日本|x2.0
+    type: ssr
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13726
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3727|日本|x2.0
+    type: ssr
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13727
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3728|日本|x1.0
+    type: ssr
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13728
+    cipher: rc4-md5
+    password: Cskw6d
+    protocol: auth_aes128_md5
+    protocol-param: 379796:FWuljc
+    obfs: tls1.2_ticket_auth
+    obfsparam: db67c379796.microsoft.com
+  - name: V4-3740|日本|x2.0
+    type: vmess
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13740
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: syrbp.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V4-3741|日本|x2.0
+    type: vmess
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13741
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: syrbp.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V4-3742|日本|x2.0
+    type: vmess
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13742
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: syrbp.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: V4-3743|日本|x1.0
+    type: vmess
+    server: syrbp.cdn.node.a.ddnsketq.xyz
+    port: 13743
+    uuid: 067173a6-5cf4-3c3f-98fd-993098d3241d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+    ws-headers:
+      Host: syrbp.cdn.node.a.ddnsketq.xyz
+    ws-opts:
+      path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8
+  - name: singbox0
+    type: http
+    server: 127.0.0.1
+    port: 9904
+  - name: singbox1
+    type: http
+    server: 127.0.0.1
+    port: 9907
+  - name: singbox2
+    type: http
+    server: 127.0.0.1
+    port: 9910
+  - name: singbox3
+    type: http
+    server: 127.0.0.1
+    port: 9913
+proxy-groups:
+  - name: JP0
+    proxies:
+      - V4-3742|日本|x2.0
+      - V2-3229|日本NF|x2.0
+      - V4-3726|日本|x2.0
+      - V3-3699|日本NF|x2.0
+      - V2-3734|日本|x2.0
+      - V3-3225|日本NF|x2.0
+      - V3-3738|日本|x2.0
+      - V2-3062|日本|x2.0
+      - V4-3743|日本|x1.0
+      - V3-3606|日本|x1.5
+      - V4-3497|日本NFx2.0
+      - V3-2958|日本|x1.5
+      - V4-3477|日本NF|x2.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: JP1
+    proxies:
+      - V4-3727|日本|x2.0
+      - V2-2999|日本|x1.0
+      - V3-3724|日本|x2.0
+      - V2-3703|日本NF|x2.0
+      - V3-3739|日本|x2.0
+      - V3-3589|日本|x1.5
+      - V3-3737|日本|x2.0
+      - V2-3603|日本|x2.0
+      - V2-3735|日本|x2.0
+      - V2-3691|日本NF|x2.0
+      - V4-3023|日本NF|x2.0
+      - V2-889|日本NF|x2.0
+      - V4-3093|日本|x1.5
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: JP2
+    proxies:
+      - V4-3728|日本|x1.0
+      - V2-3233|日本NF|x2.0
+      - V3-3722|日本|x2.0
+      - V4-3613|日本|x1.5|
+      - V2-3733|日本|x2.0
+      - V2-3591|日本|x1.5
+      - V3-3736|日本|x2.0
+      - V3-3605|日本|x1.5
+      - V4-3607|日本|x1.5
+      - V3-3604|日本|x1.5
+      - V3-2957|日本|x1.5
+      - V3-2956|日本|x1.5
+      - V3-3223|日本NF|x2.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: JP3
+    proxies:
+      - V4-3741|日本|x2.0
+      - V4-3096|日本|x2.0
+      - V2-3718|日本|x2.0
+      - V4-3511|日本NF|x2.0
+      - V4-3740|日本|x2.0
+      - V2-3704|日本NF|x2.0
+      - V2-3719|日本|x2.0
+      - V3-3696|日本NF|x2.0
+      - V3-3596|日本|x1.5
+      - V2-3611|日本|x1.5
+      - V4-3020|日本NF|x2.0
+      - V4-3451|日本NFx2.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: JP
+    proxies:
+      - JP0
+      - JP1
+      - JP2
+      - JP3
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: HK0
+    proxies:
+      - V2-3499|香港x1.2
+      - V2-3449|香港|x1.5
+      - V4-3668|香港|x1.5
+      - V3-3476|香港|x2.0
+      - V3-3010|香港|x2.0
+      - V3-3671|香港|x1.5
+      - V3-3546|香港|x1.5
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: HK1
+    proxies:
+      - V2-3509|香港|x2.0
+      - V3-3502|香港|x1.5
+      - V4-3639|香港|x1.0
+      - V4-3542|香港|x2.0
+      - V4-3489|香港|x1.5
+      - V4-3531|香港|x2.0
+      - V2-3445|香港|x1.5
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: HK2
+    proxies:
+      - V2-3475|香港|x1.5
+      - V2-3535|香港|x2.0
+      - V3-3450|香港x2.0
+      - V2-3271|香港|x2.0
+      - V4-3640|香港|x1.5
+      - V4-3541香港|x2.0
+      - V3-3018|香港|x2.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: HK3
+    proxies:
+      - V4-3665|香港|x1.0
+      - V2-3471|香港|x1.5
+      - V4-3530|香港|x2.0
+      - V2-3263|香港|x2.0
+      - V3-3340|香港|x2.0
+      - V4-3666|香港|x1.5
+      - V2-3534|香港|x2.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: HK
+    proxies:
+      - HK0
+      - HK1
+      - HK2
+      - HK3
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: US0
+    proxies:
+      - V2-3400|香港|x2.0
+      - V3-3664|美国|x1.0
+      - V2-3680|香港|x1.2
+      - V3-3638|美国|x1.0
+      - V2-3686|香港|x1.2
+      - V2-3656|美国|x1.5
+      - V2-3684|香港|x1.2
+      - V3-3662|美国|x1.5
+      - V2-3269|香港|x1.2
+      - V2-3629|美国|x1.5
+      - V2-3268|香港|x1.2
+      - V4-3667|香港|x2.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: US1
+    proxies:
+      - V3-3192|香港|x1.5
+      - V2-3628|美国|x1.5
+      - V3-3193|香港|x1.5
+      - V3-3660|美国|x1.5
+      - V2-3681|香港|x1.2
+      - V2-3654|美国|x1.5
+      - V3-3185|香港|x1.5
+      - V3-3457|美国|x2.0
+      - V3-3547|香港|x2.0
+      - V3-3431|美国|x2.0
+      - V3-3342|香港|x2.0
+      - V3-3548|香港|x2.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: US2
+    proxies:
+      - V3-3183|香港|x1.5
+      - V4-3644|香港|x2.0
+      - V2-3422|香港|x2.0
+      - V3-3458|美国|x2.0
+      - V2-3403|香港|x2.0
+      - V3-3172|香港|x1.5
+      - V2-3682|香港|x1.2
+      - V3-3634|美国|x1.5
+      - V3-3472|香港|x2.0
+      - V4-3670|香港|x2.0
+      - V4-3643|香港|x2.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: US3
+    proxies:
+      - V3-3184|香港|x1.5
+      - V2-3429|美国|x2.0
+      - V2-3543|香港|x2.0
+      - V2-3455|美国|x2.0
+      - V2-3544|香港|x2.0
+      - V2-3630|美国|x1.5
+      - V3-3171|香港|x1.5
+      - V2-3655|美国|x1.5
+      - V4-3669|香港|x2.0
+      - V3-3181|香港|x1.5
+      - V3-3345|香港|x2.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: US
+    proxies:
+      - US0
+      - US1
+      - US2
+      - US3
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: SG0
+    proxies:
+      - V4-3362|新加坡|x1.0
+      - V2-3360|新加坡|x2.5
+      - V3-3570|新加坡|x2.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: SG1
+    proxies:
+      - V3-3572|新加坡|x2.0
+      - V4-3352|新加坡|x1.0
+      - V3-3571|新加坡|x2.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: SG2
+    proxies:
+      - V3-3573|新加坡|x2.0
+      - V2-3577|新加坡|x2.0
+      - V2-3576|新加坡|x2.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: SG3
+    proxies:
+      - V4-3351|新加坡|x1.0
+      - V2-3350|新加坡|x2.5
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: SG
+    proxies:
+      - SG0
+      - SG1
+      - SG2
+      - SG3
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: TW0
+    proxies:
+      - V3-3316|台湾|x1.5
+      - V4-3309|台湾|x2.0
+      - V3-3321|台湾|x1.5
+      - V4-3302|台湾|x1.0
+      - V2-3393|台湾|x2.0
+      - V4-3303|台湾|x1.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: TW1
+    proxies:
+      - V3-3318|台湾|x1.5
+      - V2-3527|台湾|x2.0
+      - V3-3317|台湾|x1.5
+      - V2-3632|台湾|x1.5
+      - V4-3307|台湾|x1.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: TW2
+    proxies:
+      - V3-3319|台湾|x1.5
+      - V2-3631|台湾|x1.5
+      - V4-3311|台湾|x2.0
+      - V4-3299|台湾|x1.0
+      - V4-3310|台湾|x1.0
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: TW3
+    proxies:
+      - V3-3320|台湾|x1.5
+      - V4-3301|台湾|x1.0
+      - V2-3387|台湾|x2.0
+      - V2-3657|台湾|x1.5
+      - V2-3658|台湾|x1.5
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+  - name: TW
+    proxies:
+      - TW0
+      - TW1
+      - TW2
+      - TW3
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 30
+rules:
+  - DOMAIN-SUFFIX,alibaba.com,DIRECT
+  - DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+  - DOMAIN-SUFFIX,mmstat.com,DIRECT
+  - DOMAIN-SUFFIX,alicdn.com,DIRECT
+  - DOMAIN-SUFFIX,taobao.com,DIRECT
+  - DOMAIN-SUFFIX,qq.com,DIRECT
+  - DOMAIN-SUFFIX,qqmail.com,DIRECT
+  - DOMAIN-SUFFIX,so.com,DIRECT
+  - DOMAIN-SUFFIX,163.com,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,bdimg.com,DIRECT
+  - DOMAIN-SUFFIX,cn,DIRECT
+  - DOMAIN-SUFFIX,bnbstatic.com,TW
+  - DOMAIN-SUFFIX,binance.com,TW
+  - DOMAIN-SUFFIX,gemini.google.com, TW
+  - MATCH,HK
+listeners:
+  - name: proxy7900
+    type: http
+    port: 7900
+    proxy: singbox0
+  - name: proxy7901
+    type: http
+    port: 7901
+    proxy: singbox1
+  - name: proxy7902
+    type: http
+    port: 7902
+    proxy: singbox2
+  - name: proxy7903
+    type: http
+    port: 7903
+    proxy: singbox3
+  - name: proxy7904
+    type: http
+    port: 7904
+    proxy: singbox0
+  - name: proxy7905
+    type: http
+    port: 7905
+    proxy: singbox1
+  - name: proxy7906
+    type: http
+    port: 7906
+    proxy: singbox2
+  - name: proxy7907
+    type: http
+    port: 7907
+    proxy: singbox3
+  - name: proxy7908
+    type: http
+    port: 7908
+    proxy: singbox0
+  - name: proxy7909
+    type: http
+    port: 7909
+    proxy: singbox1
+  - name: proxy7910
+    type: http
+    port: 7910
+    proxy: singbox2
+  - name: proxy7911
+    type: http
+    port: 7911
+    proxy: singbox3
+  - name: proxy7912
+    type: http
+    port: 7912
+    proxy: singbox0

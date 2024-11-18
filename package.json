@@ -1,0 +1,29 @@
+{
+	"scripts": {
+		"build": "tsc && cp -r src/template dist",
+		"start": "node dist/server.js",
+		"dev1": "ts-node-dev --respawn --transpileOnly ./src/server.ts",
+		"dev2": "nodemon --exec \"npx ts-node\" src/server.ts",
+		"dev": "npx nodemon bs-config.js --watch src/"
+	},
+	"devDependencies": {
+		"@types/archiver": "^6.0.3",
+		"@types/express": "^4.17.21",
+		"@types/fs-extra": "^11.0.4",
+		"@types/multer": "^1.4.12",
+		"@types/node": "^20.14.12",
+		"axios": "^1.7.3",
+		"browser-sync": "^3.0.2",
+		"express": "^4.19.2",
+		"js-yaml": "^4.1.0",
+		"nodemon": "^3.1.4",
+		"ts-node": "^10.9.2",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^5.5.4"
+	},
+	"dependencies": {
+		"archiver": "^7.0.1",
+		"fs-extra": "^11.2.0",
+		"multer": "1.4.5-lts.1"
+	}
+}

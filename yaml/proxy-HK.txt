@@ -1,0 +1,170 @@
+  - {"name":"HK3260","type":"ssr","server":"bbq886.cdn.node.a.ddnsketq.xyz","port":13260,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3261","type":"ssr","server":"bbq886.cdn.node.a.ddnsketq.xyz","port":13261,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3263","type":"ssr","server":"aaf8.cdn.node.a.ddnsketq.xyz","port":13263,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3268","type":"vmess","server":"bbq886.cdn.node.a.ddnsketq.xyz","port":13268,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","ws-headers":{"Host":"bbq886.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8"}}
+  - {"name":"HK3269","type":"vmess","server":"bbq886.cdn.node.a.ddnsketq.xyz","port":13269,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","ws-headers":{"Host":"bbq886.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8"}}
+  - {"name":"HK3271","type":"vmess","server":"aaf8.cdn.node.a.ddnsketq.xyz","port":13271,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","ws-headers":{"Host":"aaf8.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8"}}
+  - {"name":"HK3400","type":"ssr","server":"zgdv6.cdn.node.a.ddnsketq.xyz","port":13400,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3403","type":"vmess","server":"zgdv6.cdn.node.a.ddnsketq.xyz","port":13403,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/9974f731e8cb457b17143895.v1.live.m3u8","ws-headers":{"Host":"zgdv6.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/9974f731e8cb457b17143895.v1.live.m3u8"}}
+  - {"name":"HK3422","type":"ssr","server":"zgdv6.cdn.node.a.ddnsketq.xyz","port":13422,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3423","type":"vmess","server":"zgdv6.cdn.node.a.ddnsketq.xyz","port":13423,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","ws-headers":{"Host":"zgdv6.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8"}}
+  - {"name":"HK3437","type":"ssr","server":"zgdv6.cdn.node.a.ddnsketq.xyz","port":13437,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3445","type":"ssr","server":"x321.cdn.node.a.ddnsketq.xyz","port":13445,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3449","type":"ssr","server":"sjgysy.cdn.node.a.ddnsketq.xyz","port":13449,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3463","type":"vmess","server":"zgdv6.cdn.node.a.ddnsketq.xyz","port":13463,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/9974f731e8cb457b17143895.v1.live.m3u8","ws-headers":{"Host":"zgdv6.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/9974f731e8cb457b17143895.v1.live.m3u8"}}
+  - {"name":"HK3471","type":"vmess","server":"x321.cdn.node.a.ddnsketq.xyz","port":13471,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","ws-headers":{"Host":"x321.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8"}}
+  - {"name":"HK3475","type":"vmess","server":"sjgysy.cdn.node.a.ddnsketq.xyz","port":13475,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"sjgysy.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+  - {"name":"HK3495","type":"ssr","server":"x321.cdn.node.a.ddnsketq.xyz","port":13495,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3499","type":"ssr","server":"x321.cdn.node.a.ddnsketq.xyz","port":13499,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3501","type":"ssr","server":"tata12.cdn.node.a.ddnsketq.xyz","port":13501,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3509","type":"vmess","server":"x321.cdn.node.a.ddnsketq.xyz","port":13509,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"x321.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3513","type":"vmess","server":"x321.cdn.node.a.ddnsketq.xyz","port":13513,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"x321.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3515","type":"vmess","server":"tata12.cdn.node.a.ddnsketq.xyz","port":13515,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","ws-headers":{"Host":"tata12.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8"}}
+  - {"name":"HK3534","type":"ssr","server":"x321.cdn.node.a.ddnsketq.xyz","port":13534,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3535","type":"vmess","server":"x321.cdn.node.a.ddnsketq.xyz","port":13535,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","ws-headers":{"Host":"x321.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8"}}
+  - {"name":"HK3543","type":"ssr","server":"zgdv6.cdn.node.a.ddnsketq.xyz","port":13543,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3544","type":"vmess","server":"zgdv6.cdn.node.a.ddnsketq.xyz","port":13544,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"zgdv6.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+  - {"name":"HK3680","type":"ssr","server":"z5sa6is.cdn.node.a.ddnsketq.xyz","port":13680,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3681","type":"ssr","server":"z5sa6is.cdn.node.a.ddnsketq.xyz","port":13681,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3682","type":"ssr","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13682,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3684","type":"vmess","server":"z5sa6is.cdn.node.a.ddnsketq.xyz","port":13684,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","ws-headers":{"Host":"z5sa6is.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8"}}
+  - {"name":"HK3685","type":"vmess","server":"z5sa6is.cdn.node.a.ddnsketq.xyz","port":13685,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","ws-headers":{"Host":"z5sa6is.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8"}}
+  - {"name":"HK3686","type":"vmess","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13686,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","ws-headers":{"Host":"z5is.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8"}}
+  - {"name":"HK3010","type":"ssr","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13010,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3018","type":"vmess","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13018,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/9974f731e8cb457b17143895.v1.live.m3u8","ws-headers":{"Host":"cd69.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/9974f731e8cb457b17143895.v1.live.m3u8"}}
+  - {"name":"HK3171","type":"ssr","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13171,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3172","type":"vmess","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13172,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"z5is.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3181","type":"ssr","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13181,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3182","type":"vmess","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13182,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"z5is.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3183","type":"ssr","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13183,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3184","type":"ssr","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13184,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3185","type":"ssr","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13185,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3186","type":"ssr","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13186,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3192","type":"vmess","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13192,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"z5is.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3193","type":"vmess","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13193,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"z5is.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3194","type":"vmess","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13194,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"z5is.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3195","type":"vmess","server":"z5is.cdn.node.a.ddnsketq.xyz","port":13195,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"z5is.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3267","type":"ssr","server":"suyhks.cdn.node.a.ddnsketq.xyz","port":13267,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3275","type":"vmess","server":"syhkv2.cdn.node.a.ddnsketq.xyz","port":13275,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"syhkv2.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3340","type":"ssr","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13340,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3342","type":"ssr","server":"suyhks.cdn.node.a.ddnsketq.xyz","port":13342,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3343","type":"vmess","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13343,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"cd69.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3345","type":"vmess","server":"syhkv2.cdn.node.a.ddnsketq.xyz","port":13345,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"syhkv2.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3446","type":"ssr","server":"suyhks.cdn.node.a.ddnsketq.xyz","port":13446,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3450","type":"ssr","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13450,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3472","type":"vmess","server":"syhkv2.cdn.node.a.ddnsketq.xyz","port":13472,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"syhkv2.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3476","type":"vmess","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13476,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"cd69.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+  - {"name":"HK3488","type":"ssr","server":"sjgysy.cdn.node.a.ddnsketq.xyz","port":13488,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3490","type":"ssr","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13490,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3502","type":"vmess","server":"sjgysy.cdn.node.a.ddnsketq.xyz","port":13502,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"sjgysy.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+  - {"name":"HK3504","type":"vmess","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13504,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"cd69.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3545","type":"ssr","server":"tata12.cdn.node.a.ddnsketq.xyz","port":13545,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3546","type":"vmess","server":"tata12.cdn.node.a.ddnsketq.xyz","port":13546,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"tata12.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3547","type":"ssr","server":"suyhks.cdn.node.a.ddnsketq.xyz","port":13547,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3548","type":"vmess","server":"syhkv2.cdn.node.a.ddnsketq.xyz","port":13548,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"syhkv2.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3671","type":"vmess","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13671,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"cd69.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+  - {"name":"HK3447","type":"ssr","server":"suyhks.cdn.node.a.ddnsketq.xyz","port":13447,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3473","type":"vmess","server":"syhkv2.cdn.node.a.ddnsketq.xyz","port":13473,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","ws-headers":{"Host":"syhkv2.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"}}
+  - {"name":"HK3489","type":"ssr","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13489,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3503","type":"vmess","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13503,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"cd69.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+  - {"name":"HK3530","type":"ssr","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13530,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3531","type":"vmess","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13531,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"cd69.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+  - {"name":"HK3541","type":"ssr","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13541,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3542","type":"vmess","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13542,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"cd69.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+  - {"name":"HK3639","type":"ssr","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13639,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3640","type":"ssr","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13640,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3641","type":"ssr","server":"suyhks.cdn.node.a.ddnsketq.xyz","port":13641,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3642","type":"ssr","server":"sjgysy.cdn.node.a.ddnsketq.xyz","port":13642,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3643","type":"ssr","server":"suyhks.cdn.node.a.ddnsketq.xyz","port":13643,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3644","type":"ssr","server":"suyhks.cdn.node.a.ddnsketq.xyz","port":13644,"cipher":"rc4-md5","password":"Cskw6d","protocol":"auth_aes128_md5","protocol-param":"379796:FWuljc","obfs":"tls1.2_ticket_auth","obfsparam":"db67c379796.microsoft.com"}
+  - {"name":"HK3665","type":"vmess","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13665,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"cd69.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+  - {"name":"HK3666","type":"vmess","server":"cd69.cdn.node.a.ddnsketq.xyz","port":13666,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"cd69.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+  - {"name":"HK3667","type":"vmess","server":"syhkv2.cdn.node.a.ddnsketq.xyz","port":13667,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"syhkv2.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+  - {"name":"HK3668","type":"vmess","server":"sjgysy.cdn.node.a.ddnsketq.xyz","port":13668,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"sjgysy.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+  - {"name":"HK3669","type":"vmess","server":"syhkv2.cdn.node.a.ddnsketq.xyz","port":13669,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"syhkv2.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+  - {"name":"HK3670","type":"vmess","server":"syhkv2.cdn.node.a.ddnsketq.xyz","port":13670,"uuid":"067173a6-5cf4-3c3f-98fd-993098d3241d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","ws-headers":{"Host":"syhkv2.cdn.node.a.ddnsketq.xyz"},"ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
