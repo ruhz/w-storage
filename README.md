@@ -1,3 +1,6 @@
+# w-storage
+Save temporary vps data on the network
+
 npx nodemon bs-config.js
 
 npx nodemon bs-config.js --watch src/
