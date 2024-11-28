@@ -7,7 +7,6 @@ import path from 'path'
 import { exec } from 'child_process';
 
 
-
 export const toolRouter = express.Router()
 
 const handleDownload = (dirname: string, req: express.Request, res: express.Response) => {
@@ -56,6 +55,20 @@ toolRouter.get('/down/uploads', (req, res) => {
 toolRouter.get('/down/extracted', (req, res) => {
   const dirname = path.join(process.cwd(), 'extracted')
   handleDownload(dirname, req, res)
+})
+
+toolRouter.get('/down/info', (req, res) => {
+  const filename = path.join(process.cwd(), 'info.txt')
+  if (!fs.existsSync(filename)) {
+    // 获取当前 UTC 时间
+    const now = new Date();
+    const taipeiOffset = 8 * 60; // 以分钟为单位
+
+    const taipeiTime = new Date(now.getTime() + (taipeiOffset - now.getTimezoneOffset()) * 60 * 1000);
+    const taipeiTimeStr = taipeiTime.toISOString().replace('T', ' ').substring(0, 19);
+    fs.writeFileSync(filename, taipeiTimeStr)
+  }
+  res.sendFile(filename);
 })
 
 const upload = multer({ dest: 'uploads/' });

@@ -4,7 +4,7 @@ https://ipv4.geojs.io/v1/ip/country.json
 
 import axios from 'axios'
 
-export module net {
+export namespace net {
   export function wgetProxy(prot: number): Promise<IProxyInfo> {
     const proxyConfig = {
       proxy: {
